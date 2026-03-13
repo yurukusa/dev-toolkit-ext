@@ -4,6 +4,16 @@
   "version": "1.0.0",
   "description": "Instant access to 440+ free developer tools. JSON, CSS, regex, color, font, API, and more. No tracking, no ads.",
   "permissions": ["storage"],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "dev-toolkit@yurukusa.github.io",
+      "strict_min_version": "109.0",
+      "data_collection_permissions": {
+        "required": ["none"],
+        "optional": []
+      }
+    }
+  },
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
